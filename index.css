@@ -1,0 +1,119 @@
+h1{
+    text-align: center;
+    color:aqua;
+}
+
+h2{
+    text-align: right ;
+    color:rgb(247, 241, 241);
+
+}
+
+
+body{
+    background-image:url(https://mcmscache.epapr.in/post_images/website_350/post_21946998/full.jpg); 
+    height: 100vh;
+    background-blend-mode: darken;
+    background: rgba(91, 71, 71, 0.7) url(https://mcmscache.epapr.in/post_images/website_350/post_21946998/full.jpg);
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: darken;
+     
+}
+
+.btn{
+    padding: 10px;
+    margin-right: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+}
+
+.btn:hover{
+    background-color:green;
+}
+
+.btn:active{
+    background-color: aqua;
+    box-shadow: 0 5px #666;
+
+}
+
+
+.container{
+    text-align: right;
+    padding: 10px 0;
+    margin-bottom: 0.5cm;
+    
+    
+}
+
+#nitrogen{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#phosporus{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#potassium{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#temperature{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#humidity{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#ph{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#rainfall{
+    padding: 10px 0;
+    width: 360px;
+    background: none;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+::placeholder{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-warning{
+    text-align: right;
+    margin-right: 120px;
+    text-transform: uppercase;
+    color:aqua;
+}

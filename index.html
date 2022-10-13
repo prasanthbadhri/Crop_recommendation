@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APP</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename = 'index.css')}}" type="text/css">
+    </head>
+    <body>
+        <h1>PLEASE ENTER THE VALUES</h1>
+        
+        <div class="container">
+        <form action="/predict" method="POST">
+            
+            <input id="nitrogen" type="text" name="N" placeholder="NITROGEN" ><br>
+            <input id="phosporus"  type="text" name="P" placeholder="PHOSPORUS"><br>
+            <input id="potassium"    type="text" name="K" placeholder="potassium"><br>
+            <input id="temperature"   type="text" name="temperature" placeholder="temperature"><br>
+            <input id="humidity"    type="text" name="humidity" placeholder="humidity"><br>
+            <input id="ph"  type="text" name="ph" placeholder="ph level"><br>
+            <input id="rainfall"    type="text" name="rainfall" placeholder="rainfall"><br>
+            
+            
+            <button class="btn" >check</button>
+        </form>
+        <div class="row">
+            {% if prediction %}
+            <h2 class = "text-warning">{{prediction}}</h2>
+
+            {% endif %}
+
+        </div>
+        </div>
+    </body>
+</html> 
